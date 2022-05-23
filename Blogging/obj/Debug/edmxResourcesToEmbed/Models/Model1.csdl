@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BlogsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Blog">
+    <Key>
+      <PropertyRef Name="blog1" />
+    </Key>
+    <Property Name="blog1" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="blogerid" Type="Int32" />
+    <Property Name="blog_date" Type="DateTime" Precision="0" />
+    <Property Name="blog_content" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="blog_image" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="bloger" Relationship="Self.FK__Blog__blogerid__2D27B809" FromRole="Blog" ToRole="bloger" />
+    <Property Name="blog_title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="bloger">
+    <Key>
+      <PropertyRef Name="blogerid" />
+    </Key>
+    <Property Name="blogerid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="Int32" />
+    <NavigationProperty Name="Blogs" Relationship="Self.FK__Blog__blogerid__2D27B809" FromRole="bloger" ToRole="Blog" />
+    <NavigationProperty Name="user" Relationship="Self.FK__bloger__userid__2A4B4B5E" FromRole="bloger" ToRole="users" />
+  </EntityType>
+  <EntityType Name="moderator">
+    <Key>
+      <PropertyRef Name="moderatorid" />
+    </Key>
+    <Property Name="moderatorid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="Int32" />
+    <NavigationProperty Name="user" Relationship="Self.FK__moderator__useri__276EDEB3" FromRole="moderator" ToRole="users" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="first_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="last_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="blogers" Relationship="Self.FK__bloger__userid__2A4B4B5E" FromRole="users" ToRole="bloger" />
+    <NavigationProperty Name="moderators" Relationship="Self.FK__moderator__useri__276EDEB3" FromRole="users" ToRole="moderator" />
+    <Property Name="user_type" Type="String" MaxLength="30" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK__Blog__blogerid__2D27B809">
+    <End Role="bloger" Type="Self.bloger" Multiplicity="0..1" />
+    <End Role="Blog" Type="Self.Blog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="bloger">
+        <PropertyRef Name="blogerid" />
+      </Principal>
+      <Dependent Role="Blog">
+        <PropertyRef Name="blogerid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__bloger__userid__2A4B4B5E">
+    <End Role="users" Type="Self.user" Multiplicity="0..1" />
+    <End Role="bloger" Type="Self.bloger" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="bloger">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__moderator__useri__276EDEB3">
+    <End Role="users" Type="Self.user" Multiplicity="0..1" />
+    <End Role="moderator" Type="Self.moderator" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="users">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="moderator">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BlogsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Blogs" EntityType="Self.Blog" />
+    <EntitySet Name="blogers" EntityType="Self.bloger" />
+    <EntitySet Name="moderators" EntityType="Self.moderator" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK__Blog__blogerid__2D27B809" Association="Self.FK__Blog__blogerid__2D27B809">
+      <End Role="bloger" EntitySet="blogers" />
+      <End Role="Blog" EntitySet="Blogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__bloger__userid__2A4B4B5E" Association="Self.FK__bloger__userid__2A4B4B5E">
+      <End Role="users" EntitySet="users" />
+      <End Role="bloger" EntitySet="blogers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__moderator__useri__276EDEB3" Association="Self.FK__moderator__useri__276EDEB3">
+      <End Role="users" EntitySet="users" />
+      <End Role="moderator" EntitySet="moderators" />
+    </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="BlogsModel.sysdiagram" />
+  </EntityContainer>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+</Schema>

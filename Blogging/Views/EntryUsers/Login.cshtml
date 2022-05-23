@@ -1,0 +1,59 @@
+﻿@model Blogging.Models.user
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Content/logreg.css">
+
+</head>
+<body>
+
+    
+            @using (Html.BeginForm())
+            {
+
+                @Html.ValidationSummary(true)
+
+    <div style="border: solid 1px #ccc; padding: 30px 0 30px 30px; border-radius: 5px;
+        width: 325px; margin: auto; display: table;">
+        <h2 style="color:forestgreen; font-family:Andalus; float:none;">WELCOME BACK </h2>
+
+        <table>
+            <tr>
+                <td valign="top">
+                    @Html.LabelFor(model => model.email)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.email)
+
+                    <div style="height: 20px;">
+                        @Html.ValidationMessageFor(model => model.email)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+
+                <td valign="top">
+                    @Html.LabelFor(model => model.password)
+                </td>
+
+                <td>
+                    @Html.EditorFor(model => model.password)
+                    <div style="height: 20px;">
+                        @Html.ValidationMessageFor(model => model.password)
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input type="submit" value="Login" class="btn btn-info" />
+                </td>
+            </tr>
+        </table>
+    </div>
+            }
+    </body>

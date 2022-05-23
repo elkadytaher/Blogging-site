@@ -1,0 +1,166 @@
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Blogging.dll.config
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Blogging.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Blogging.pdb
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\csc.exe
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\csc.exe.config
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\csc.rsp
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\csi.exe
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\csi.exe.config
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\csi.rsp
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.AppContext.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Console.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\vbc.exe
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\vbc.exe.config
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\vbc.rsp
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\source\repos\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Antlr3.Runtime.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\EntityFramework.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Newtonsoft.Json.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Helpers.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Mvc.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Optimization.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Razor.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.WebPages.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.WebPages.Razor.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\WebGrease.dll
+C:\Users\HP\source\repos\Blogging\Blogging\bin\EntityFramework.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Helpers.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Mvc.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Optimization.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.Razor.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.WebPages.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\System.Web.WebPages.Razor.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Newtonsoft.Json.xml
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Antlr3.Runtime.pdb
+C:\Users\HP\source\repos\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\source\repos\Blogging\Blogging\obj\Debug\Blogging.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Blogging\Blogging\obj\Debug\Blogging.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Blogging\Blogging\obj\Debug\Blogging.csproj.CopyComplete
+C:\Users\HP\source\repos\Blogging\Blogging\obj\Debug\Blogging.dll
+C:\Users\HP\source\repos\Blogging\Blogging\obj\Debug\Blogging.pdb
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Blogging.dll.config
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Blogging.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Blogging.pdb
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\csc.exe
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\csc.exe.config
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\csc.rsp
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\csi.exe
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\csi.exe.config
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\csi.rsp
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.AppContext.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Collections.Immutable.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Console.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Globalization.Calendars.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.IO.Compression.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Net.Http.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Net.Sockets.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Reflection.Metadata.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.ValueTuple.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Xml.XPath.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\vbc.exe
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\vbc.exe.config
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\vbc.rsp
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\roslyn\VBCSCompiler.exe.config
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Antlr3.Runtime.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\EntityFramework.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\EntityFramework.SqlServer.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Microsoft.Web.Infrastructure.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Newtonsoft.Json.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Helpers.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Mvc.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Optimization.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Razor.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.WebPages.Deployment.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.WebPages.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.WebPages.Razor.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\WebGrease.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\EntityFramework.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\EntityFramework.SqlServer.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Helpers.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Mvc.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Optimization.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.Razor.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.WebPages.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.WebPages.Deployment.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\System.Web.WebPages.Razor.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Newtonsoft.Json.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Antlr3.Runtime.pdb
+D:\Level 3 Second term\Project\Blogging\Blogging\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Level 3 Second term\Project\Blogging\Blogging\obj\Debug\Blogging.csproj.AssemblyReference.cache
+D:\Level 3 Second term\Project\Blogging\Blogging\obj\Debug\Blogging.csproj.CoreCompileInputs.cache
+D:\Level 3 Second term\Project\Blogging\Blogging\obj\Debug\Blogging.csproj.CopyComplete
+D:\Level 3 Second term\Project\Blogging\Blogging\obj\Debug\Blogging.dll
+D:\Level 3 Second term\Project\Blogging\Blogging\obj\Debug\Blogging.pdb

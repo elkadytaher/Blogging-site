@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    Layout = "~/Views/Shared/Moderator_Layout.cshtml";
+}
+
+<h2>WELCOME BACK @Session["FirstName"] Lets Work.</h2>
+
+<li>@Html.ActionLink("Users", "Index", "Moderator_Users")</li>
+<li>@Html.ActionLink("Blogs", "Index", "Moderator_blogs")</li>
+

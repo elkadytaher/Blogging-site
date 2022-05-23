@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Blogging.Models.Blog>
+
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    Layout = "~/Views/Shared/Moderator_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.blog_date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.blog_content)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.blog_image)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.blog_title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bloger.blogerid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.bloger.user.first_name)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.blog_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.blog_content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.blog_image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.blog_title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bloger.blogerid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bloger.user.first_name)
+                @Html.DisplayFor(modelItem => item.bloger.user.last_name)
+
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.blog1 }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.blog1 })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="~/Content/Home.css">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <main>
+        <div class="content">
+            <img src="~/Content/Frame.jpg" />
+            <div class="side">
+                <h1>Blogging Became Easier</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <button class="btns1">
+                    @Html.ActionLink("Login", "Login", "EntryUsers")
+                    
+                </button>
+                <button class="btns2">@Html.ActionLink("Register", "Register", "EntryUsers")</button>
+            </div>
+        </div>
+    </main>
+</body>

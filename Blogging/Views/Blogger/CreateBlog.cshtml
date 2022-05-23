@@ -1,0 +1,71 @@
+﻿@model Blogging.Models.Blog
+
+@{
+    ViewBag.Title = "CreateBlog";
+}
+@{
+    Layout = "~/Views/Shared/Blogger_Layout.cshtml";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/Content/CreatBlog.css">
+    <style>
+    </style>
+
+</head>
+<body>
+    <h1>ADD BLOG</h1>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+            <div class="theform">
+                <div class="styling">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="styling-3">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.blog_title, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.blog_title, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.blog_title, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+                    @*
+                        <div class="styling-2">
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.blog_image, htmlAttributes: new { @class = "control-label col-md-2" })
+                                <div class="col-md-10">
+                                    @Html.TextBoxFor(model => model.blog_image, new { htmlAttributes = new { @class = "form-control" } })
+                                    @Html.ValidationMessageFor(model => model.blog_image, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                        </div>
+                    *@
+                    <div class="styling-1">
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.blog_content, htmlAttributes: new { @class = "control-label col-md-2" })
+                            <div class="col-md-10">
+                                @Html.TextBoxFor(model => model.blog_content, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.blog_content, "", new { @class = "text-danger" })
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+
+</body>

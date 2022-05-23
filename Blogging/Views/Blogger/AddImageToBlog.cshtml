@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "AddImageToBlog";
+}
+@{
+    Layout = "~/Views/Shared/Blogger_Layout.cshtml";
+}
+<body>
+    <h2>Add Image to Your Blog</h2>
+
+    @using (Html.BeginForm("AddImageToBlog", "Blogger", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <input type="file" name="postedFile" />
+        <input type="submit" id="btnUpload" value="Upload" />
+    }
+    <hr />
+</body>
+
+

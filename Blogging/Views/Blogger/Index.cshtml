@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Blogging.Models.Blog>
+
+@{
+    ViewBag.Title = "Index";
+}
+@{
+    Layout = "~/Views/Shared/Blogger_Layout.cshtml";
+}
+<head>
+    <meta charset="utf-8" />
+    <link href="@Url.Content("/Content/Post.css")" rel="stylesheet" />
+    <title>Blog</title>
+</head>
+<body>
+    @*
+        <h2>Index</h2>
+
+        <p>
+            @Html.ActionLink("Create New", "Create")
+        </p>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.blog_date)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.blog_content)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.blog_image)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.bloger.blogerid)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.blog_date)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.blog_content)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.blog_image)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.bloger.blogerid)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.blog1 }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.blog1 }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.blog1 })
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+    *@
+
+    <section id="blog">
+        <div class="blog-heading">
+            <h3>Latest Blogs</h3>
+        </div>
+
+
+        <div class="blog-container">
+            @foreach (var item in Model)
+            {
+                <a href="#">
+                    <div class="blog-box">
+
+                        <div class="blog-img">
+                            <img src="~/Content/Images/@item.blog_image" alt="Blog" />
+                        </div>
+                        <div class="blog-text">
+                            <div class="blog-date">
+                                @Html.DisplayFor(modelItem => item.blog_date)
+                                @Html.DisplayFor(modelItem => item.bloger.user.first_name)
+                                @Html.DisplayFor(modelItem => item.bloger.user.last_name)
+                            </div>
+                          
+                            <div class="blog-title">
+
+                                <span class"control-label col-md-6">@Html.DisplayFor(modelItem => item.blog_title) </span>
+                            </div>
+                            <div class="blog-Content">
+                                <span class"control-label col-md-6"> @Html.DisplayFor(modelItem => item.blog_content) </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            }
+        </div>
+
+
+    </section>
+
+</body>
+
+
